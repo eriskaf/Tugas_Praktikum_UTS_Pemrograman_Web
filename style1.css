@@ -1,0 +1,144 @@
+/* import google font */ 
+@import 
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); 
+@import 
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap'); 
+
+/* Reset CSS */ 
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+body { 
+    line-height:1; 
+    font-size:80%; 
+    font-family:'Open Sans', sans-serif; 
+    color:#948e8c; 
+} 
+
+#container { 
+    width: 980px; 
+    margin: 0 auto; 
+    box-shadow: 0 0 1em #a7a3a3; 
+    color: #a7a3a3;
+} 
+
+/* header */ 
+header { 
+    padding: 20px; 
+} 
+
+header h1 { 
+    margin: 20px 10px; 
+    color: #000000; 
+}
+
+header h4 { 
+    margin: 20px 10px; 
+    color: #000000; 
+}
+
+
+/* navigasi */ 
+nav { 
+    display: block; 
+    background-color: #ffffff; 
+} 
+
+nav a { 
+    padding: 15px 30px; 
+    display: inline-block; 
+    color: #000000; 
+    font-size: 10px; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+
+nav a.active, 
+nav a:hover { 
+    background-color: #04faa8; 
+}
+
+
+/* main content */ 
+#wrapper { 
+    margin: 0; 
+}
+
+#main { 
+    float: center; 
+    width: 980px; 
+    padding: 0px; 
+} 
+
+
+/* box */ 
+.box { 
+    display:block; 
+    float:left; 
+    width:25%; 
+    box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    -webkit-box-sizing:border-box;
+    padding:0 0px; 
+    text-align:center; 
+} 
+
+.box h3 { 
+    margin: 15px 0; 
+} 
+
+.box p { 
+    line-height: 20px; 
+    font-size: 14px; 
+    margin-bottom: 15px; 
+} 
+
+box img { 
+    border: 0; 
+    vertical-align: middle; 
+} 
+
+
+.row { 
+    margin: 0 0px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+
+.row:after, 
+.row:before, 
+.entry:after, 
+.entry:before { 
+    content:''; 
+    display:table; 
+} 
+
+.row:after, 
+.entry:after { 
+    clear:both; 
+}
+
+/*
+    Footer-Styles
+ */ 
+ #footer {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    clear:both; 
+    background-color:#1d1d1d; 
+    padding:80px; 
+    color:#eee;
+ }
+ .footer_column {
+    float:left;
+    width:120px;
+    margin-right:38px;
+ }
+ 
+ #footer h3 {
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:10px;
